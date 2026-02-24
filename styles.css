@@ -27,7 +27,7 @@ html {
   border-radius: 10px;
   cursor: pointer;
   color: rgb(0, 0, 0);
-  background-color: #7e7e7e;
+  background-color: #bd93f9;
   transition: 0.2s;
 }
 .contato_button:hover {
@@ -35,7 +35,7 @@ html {
   transform: scale(1.05);
 }
 h2.especialidade_titulo {
-  color: rgb(136, 135, 135);
+  color: #ff79c6;
   font-size: 32px;
   text-align: center;
 }
@@ -52,7 +52,7 @@ header > .interface {
 
 header nav a {
   text-decoration: none;
-  color: rgb(136, 135, 135);
+  color: #f8f8f2;
   font-weight: 700;
   display: inline-block;
   transition: 0.2s;
@@ -88,7 +88,7 @@ header nav.menu_desktop ul li {
   display: none;
 }
 .menu_mobile nav ul li a {
-  color: rgb(136, 135, 135);
+  color: #f8f8f2;;
   font-size: 20px;
   font-weight: 300px;
   padding: 20px 4%;
@@ -156,7 +156,7 @@ section.topo_do_site .flex {
   font-size: 46px;
 }
 .topo_do_site p {
-  color: rgb(136, 135, 135);
+  color: #f8f8f2;
   font-size: 18px;
   margin: 20px 0;
   line-height: 22px;
@@ -198,7 +198,7 @@ section.topo_do_site .flex {
   color: rgb(4, 235, 0);
 }
 .especialidades .especialidades_box {
-  background-color: rgb(29, 29, 104);
+  background-color: #21222c;
   padding: 0px;
   border-radius: 8px;
   flex: 1 1 280px; /* allow cards to grow but set a minimum width */
@@ -225,79 +225,13 @@ section.topo_do_site .flex {
 
 .especialidades .especialidades_box p {
   margin: 12px 12px;
-  color: rgb(136, 135, 135);
+  color: #f8f8f2;
   line-height: 1.4;
 }
-/*ESTILO DOS SPANS DAS ESPECIALIDADES*/
-.especialidades .especialidades_box .js {
-  color: rgb(255, 213, 0);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .JAVA {
-  color: rgb(105, 47, 20);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .python {
-  color: rgb(0, 30, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .csharp {
-  color: rgb(114, 32, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .SQL {
-  color: rgb(39, 140, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .react {
-  color: rgb(0, 166, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .react {
-  color: rgb(0, 166, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .angular {
-  color: rgb(255, 28, 28);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .node {
-  color: rgb(14, 140, 12);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .net {
-  color: rgb(114, 38, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .react-native {
-  color: rgb(0, 166, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .bootstrap {
-  color: rgb(205, 39, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .mySQL {
-  color: rgb(29, 127, 255);
-  line-height: 22px;
-  font-weight: bold;
-}
-.especialidades .especialidades_box .mongoDB {
-  color: rgb(0, 155, 13);
-  line-height: 22px;
-  font-weight: bold;
+/*ESTILO LOGO DAS ESPECIALIDADES*/
+.especialidades .especialidades_box .linguagem {
+  height: 60px;
+  width: 60px;
 }
 /*ESTILO DO SOBRE*/
 section.sobre {
@@ -308,7 +242,7 @@ section.sobre .flex {
   gap: 60px;
 }
 .sobre .txt_sobre {
-  color: #7e7e7e;
+  color: #f8f8f2;;
 }
 .sobre .txt_sobre h2 {
   color: blueviolet;
@@ -432,7 +366,7 @@ form input {
   outline: 0;
   padding: 20px 15px;
   border-radius: 15px;
-  color: rgb(255, 213, 0);
+  color: #f1fa8c;
   font-size: 24px;
 }
 form textarea {
@@ -441,7 +375,7 @@ form textarea {
   outline: 0;
   padding: 20px 15px;
   border-radius: 15px;
-  color: rgb(255, 213, 0);
+  color: #f1fa8c;
   font-size: 24px;
   resize: none;
   max-height: 250px;
@@ -497,7 +431,7 @@ footer .line-footer-mail p {
   font-size: 22px;
 }
 footer .line-footer-mail a {
-  color: rgb(255, 213, 0);
+  color: #f1fa8c;
   text-decoration: none;
 }
 footer .line-footer-mail {
@@ -602,33 +536,33 @@ footer .line-footer {
   }
   /*MENU MOBILE*/
   .menu_mobile {
-  display: block;
-}
-.menu_mobile nav ul {
-  display: block;
-}
-.menu_mobile nav ul li a {
-  display: block;
-}
-.menu_mobile nav ul li a:hover {
-  display: block;
-}
-.menu_mobile .fechar_menu i {
-  display: block;
-}
-.menu_mobile .fechar_menu {
-  display: block;
-}
-.abrir_menu_button i {
-  display: block;
-}
-.overlay_menu {
-  display: hidden;
-}
-.menu_mobile.btn-abrir-menu-mobile {
-  display: block;
-}
-.menu_mobile.btn-abrir-menu-mobile ~ .overlay_menu {
-  display: block;
-}
+    display: block;
+  }
+  .menu_mobile nav ul {
+    display: block;
+  }
+  .menu_mobile nav ul li a {
+    display: block;
+  }
+  .menu_mobile nav ul li a:hover {
+    display: block;
+  }
+  .menu_mobile .fechar_menu i {
+    display: block;
+  }
+  .menu_mobile .fechar_menu {
+    display: block;
+  }
+  .abrir_menu_button i {
+    display: block;
+  }
+  .overlay_menu {
+    display: hidden;
+  }
+  .menu_mobile.btn-abrir-menu-mobile {
+    display: block;
+  }
+  .menu_mobile.btn-abrir-menu-mobile ~ .overlay_menu {
+    display: block;
+  }
 }
