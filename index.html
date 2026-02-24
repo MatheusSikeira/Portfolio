@@ -16,6 +16,8 @@
   <!--Styles-->
   <link rel="icon" type="image/x-icon" href="/imagens/Whiterun.svg">
   <!--FAVICON-->
+  <script src="./menu.js" defer></script>
+  <!--Script-->
 </head>
 
 <body>
@@ -39,6 +41,27 @@
       <a href="">
         <button class="contato_button" type="button">Contato</button>
       </a>
+      <div class="abrir_menu_button" id="abrir_button_menu">
+        <i class="bi bi-list"></i>
+      </div>
+      <div class="menu_mobile" id="menu_mobile">
+        <div class="fechar_menu" id="fechar_menu">
+          <i class="bi bi-x-circle-fill"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Início</a></li>
+            <li><a href="">Especialidades</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </nav>
+        <!--fechar_menu-->
+      </div>
+      <!--menu_mobile-->
+      <div class="overlay_menu" id="overlay_menu">
+      </div>
     </div>
     <!--Contato-->
     </div>
@@ -65,7 +88,9 @@
               <a href="">
                 <button class="contato_button" type="button">Portfolio</button>
               </a>
+              <!--Contato-->
             </div>
+            <!--meu_contato-->
           </div>
           <!--txt_topo_site-->
     </section>

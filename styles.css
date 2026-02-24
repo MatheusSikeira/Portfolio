@@ -48,23 +48,78 @@ header > .interface {
   justify-content: space-between;
 }
 
-header a {
+header nav a {
   text-decoration: none;
   color: rgb(136, 135, 135);
   font-weight: 700;
   display: inline-block;
   transition: 0.2s;
 }
-header a:hover {
+header nav.menu_desktop a:hover {
   color: antiquewhite;
   transform: scale(1.05);
 }
 header nav ul {
   list-style-type: none;
 }
-header nav ul li {
+header nav.menu_desktop ul li {
   display: inline-block;
   padding: 0 40px;
+}
+/*ESTILO DO MENU MOBILE*/
+.menu_mobile {
+  background-color: #20222ab8;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999999999;
+  width: 0%;
+  overflow: hidden;
+  transition: .5s;
+}
+.menu_mobile nav ul{
+    text-align: right;
+}
+.menu_mobile nav ul li a{
+    color: rgb(136, 135, 135);
+    font-size: 20px;
+    font-weight: 300px;
+    padding: 20px 4%;
+    display: block;
+}
+.menu_mobile nav ul li a:hover{
+ background-color: rgb(82, 16, 224);
+ color: antiquewhite;
+}
+.menu_mobile .fechar_menu i{
+    color: blueviolet;
+    font-size: 30px;
+}
+.menu_mobile .fechar_menu{
+    text-align: left;
+    padding: 20px 4%;
+}
+.abrir_menu_button i{
+    color: blueviolet;
+    font-size: 50px;
+}
+.overlay_menu{
+    background-color: #000000ec;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 999999;
+    display: none;
+}
+.menu_mobile.btn-abrir-menu-mobile{
+    width: 70%;
+}
+.menu_mobile.btn-abrir-menu-mobile ~.overlay_menu{
+    display: block;
 }
 /*ESTILO DO TOPO DO SITE*/
 section.topo_do_site {
@@ -441,7 +496,7 @@ footer .line-footer {
   border-bottom: 2px solid rgb(4, 235, 0);
   padding: 40px 0%;
 }
-
+/*ESTILO MOBILE*/
 @media screen and (max-width: 1020px) {
   /*ESTILOS GERAIS*/
   .flex {
@@ -458,7 +513,7 @@ footer .line-footer {
   }
   /*ESTILO TOPO DO SITE*/
   section.topo_do_site {
-    padding: 20px 4%;
+    padding: 10px 4%;
   }
   .topo_do_site img {
     width: auto;
@@ -480,6 +535,10 @@ footer .line-footer {
   }
   .especialidades .flex {
     gap: 100px;
+    flex-direction: column;
+  }
+  .especialidades_box{
+    padding: 10% 4%;
   }
   /*ESTILO DO SOBRE*/
   section.sobre {
