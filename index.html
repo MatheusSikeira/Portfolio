@@ -17,6 +17,7 @@
   <link rel="icon" type="image/x-icon" href="/imagens/Whiterun.svg">
   <!--FAVICON-->
 </head>
+
 <body>
   <header>
     <div class="interface">
@@ -35,11 +36,11 @@
         </ul>
       </nav>
       <!--menu_desktop-->
-        <a href="">
-          <button class="contato_button" type="button">Contato</button>
-        </a>
-      </div>
-      <!--Contato-->
+      <a href="">
+        <button class="contato_button" type="button">Contato</button>
+      </a>
+    </div>
+    <!--Contato-->
     </div>
     <!--Interface-->
   </header>
@@ -62,7 +63,7 @@
               qualidade.</p>
             <div class="meu_contato">
               <a href="">
-                <button class="contato_button" type="button">Entre em contato</button>
+                <button class="contato_button" type="button">Portfolio</button>
               </a>
             </div>
           </div>
@@ -75,21 +76,27 @@
           <div class="especialidades_box">
             <i class="bi bi-file-earmark-code-fill"></i>
             <h3>Linguagens de Programação</h3>
-            <p><span class="js">JavaScript</span> <span class="JAVA">JAVA</span> <span class="python">Python</span>
-              <span class="csharp">C#</span> <span class="SQL">SQL</span></p>
+            <p><span class="js">JavaScript</span><br><span class="JAVA">JAVA</span><br><span
+                class="python">Python</span><br>
+              <span class="csharp">C#</span><br>
           </div>
           <!--especialidades_box-->
           <div class="especialidades_box">
             <i class="bi bi-box-fill"></i>
-            <h3>Frameworks</h3>
-            <p><span class="react">React</span> <span class="angular">Angular</span> <span class="node">Node</span>
-              <span class="net">.NET</span> <span class="react-native">React-Native</span></p>
+            <h3>Frameworks & Ferramentas</h3>
+            <p><span class="react">React</span><br><span class="angular">Angular</span><br><span
+                class="node">Node</span><br>
+              <span class="net">.NET</span><br><span class="react-native">React-Native</span><br><span
+                class="bootstrap">Bootstrap</span><br>
+              <span class="mySQL">mySQL</span><br><span class="mongoDB">MongoDB</span><br>
+            </p>
           </div>
           <!--especialidades_box-->
           <div class="especialidades_box">
             <i class="bi bi-pc-display-horizontal"></i>
             <h3>Projetos</h3>
-            <p>Minha experiência prática abrange o desenvolvimento de soluções completas, desde APIs REST robustas
+            <p class="projetos">Minha experiência prática abrange o desenvolvimento de soluções completas, desde APIs
+              REST robustas
               com Node.js até aplicações web dinâmicas com React e aplicativos mobile nativos com React Native.
               Também possuo familiaridade com o desenvolvimento de aplicações desktop utilizando Windows Forms
               (C#) e um sólido conhecimento em bancos de dados relacionais (SQL) e não relacionais (NoSQL),
@@ -102,10 +109,116 @@
       <!--interface-->
     </div>
     <!--especialidades-->
+    <section class="sobre">
+      <!--img_sobre-->
+      <div class="interface">
+        <div class="flex">
+          <div class="img_sobre">
+            <img src="./imagens/perfil2.jpg" alt="Foto de Perfil">
+          </div>
+          <div class="txt_sobre">
+            <h2>Muito prazer,<span>eu sou Matheus Siqueira.</span></h2>
+            <p>Sou um Desenvolvedor Júnior Full Stack com formação técnica em Desenvolvimento de Sistemas pela ETEC de
+              Embu das
+              Artes. Minha paixão por tecnologia me impulsiona a criar soluções inovadoras, com experiência prática em
+              React, React
+              Native e Node.js. Sou especialista na construção de aplicações web e mobile, e meu projeto TCC, o Nutria,
+              demonstra
+              minha capacidade de integrar Inteligência Artificial (API Gemini) para desenvolver produtos com impacto
+              real. Busco
+              constantemente aprimorar minhas habilidades e contribuir para equipes que valorizam a inovação e a
+              excelência técnica.
+            </p><br>
+            <p>Além do desenvolvimento de aplicações robustas, tenho grande interesse em explorar as fronteiras da
+              tecnologia. Sou
+              fascinado pela integração de Inteligência Artificial em projetos, pelo desenvolvimento de jogos e pela
+              criação de
+              sites dinâmicos utilizando os mais recentes frameworks. Acredito que a combinação dessas áreas abre um
+              leque vasto de
+              possibilidades para construir experiências digitais envolventes e funcionais.</p>
+            <div class="redes_button">
+              <a href="https://www.linkedin.com/in/matheus-siqueira-65762b33b/"><button><i
+                    class="bi bi-linkedin"></i></button></a>
+              <a href="https://github.com/MatheusSikeira"><button><i class="bi bi-github"></i></button></a>
+            </div>
+            <!--redes_button-->
+          </div>
+          <!--txt_sobre-->
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </section>
+    <!--sobre-->
+    <section class="portfolio">
+      <div class="interface">
+        <h2>Meu <span>Portfólio.</span></h2>
+        <div class="flex">
+          <div class="img_port" style="background-image: url(./imagens/);">
+            <div class="overlay">Nutria</div>
+          </div><!--port_port-->
+          <div class="img_port" style="background-image: url(./imagens/);">
+            <div class="overlay">Projeto 2</div>
+          </div><!--port_port-->
+          <div class="img_port" style="background-image: url(./imagens/);">
+            <div class="overlay">Projeto 3</div><!--port_port-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+    </section>
+    <!--portfolio-->
     </div>
+    <section class="formulario">
+      <div class="interface">
+        <h2>Fala <span>comigo.</span></h2>
+        <div class="flex">
+          <form action="">
+            <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+            <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+            <input type="text" name="" id="" placeholder="Seu telefone (opcional):">
+            <textarea name="" id="" placeholder="Assunto" required></textarea>
+            <div class="enviar_button">
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+        </div>
+        <!--flex-->
+      </div>
+      <!--interface-->
+    </section>
     <!--flex-->
     </div>
     <!--interface-->
   </main>
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="logo-footer">
+            <a href="">
+              <img src="./imagens/logo.svg" alt="Logo do portifolio" />
+            </a>
+          </div>
+          <!--logo-footer-->
+          <div class="redes_button">
+            <a href="https://www.linkedin.com/in/matheus-siqueira-65762b33b/"><button><i
+                  class="bi bi-linkedin"></i></button></a>
+            <a href="https://github.com/MatheusSikeira"><button><i class="bi bi-github"></i></button></a>
+          </div>
+          <!--redes_button-->
+        </div>
+        <!--flex-->
+      </div>
+      <!--line-footer-->
+      <div class="line-footer-mail">
+        <p><i class="bi bi-envelope"> </i>Contato: <a
+            href="mailto:matheus.siqueira1137@gmail.com">matheus.siqueira1137@gmail.com</a></p>
+      </div>
+      <!--line-footer-mail-->
+    </div>
+    <!--interface-->
+  </footer>
 </body>
+
 </html>
