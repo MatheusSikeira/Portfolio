@@ -24,17 +24,17 @@
   <header>
     <div class="interface">
       <div class="logo">
-        <a href="">
+        <a href="#">
           <img src="./imagens/logo.svg" alt="Logo do portifolio" />
         </a>
       </div>
       <!--logo-->
       <nav class="menu_desktop">
         <ul>
-          <li><a href="">Início</a></li>
-          <li><a href="">Especialidades</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Projetos</a></li>
+          <li><a href="#especialidades">Especialidades</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#formulario">Fale comigo</a></li>
         </ul>
       </nav>
       <!--menu_desktop-->
@@ -94,47 +94,50 @@
           </div>
           <!--txt_topo_site-->
     </section>
-    <div class="especialidades">
-      <div class="interface">
-        <h2 class="especialidade_titulo">Minhas <span>especialidades.</span></h2>
-        <div class="flex">
-          <div class="especialidades_box">
-            <i class="bi bi-file-earmark-code-fill"></i>
-            <h3>Linguagens de Programação</h3>
-            <p><span class="js">JavaScript</span><br><span class="JAVA">JAVA</span><br><span
-                class="python">Python</span><br>
-              <span class="csharp">C#</span><br>
+    <section id="especialidades">
+      <div class="especialidades">
+        <div class="interface">
+          <h2 class="especialidade_titulo">Minhas <span>especialidades.</span></h2>
+          <div class="flex">
+            <div class="especialidades_box">
+              <i class="bi bi-file-earmark-code-fill"></i>
+              <h3>Linguagens de Programação</h3>
+              <p><span class="js">JavaScript</span><br><span class="JAVA">JAVA</span><br><span
+                  class="python">Python</span><br>
+                <span class="csharp">C#</span><br>
+            </div>
+            <!--especialidades_box-->
+            <div class="especialidades_box">
+              <i class="bi bi-box-fill"></i>
+              <h3>Frameworks & Ferramentas</h3>
+              <p><span class="react">React</span><br><span class="angular">Angular</span><br><span
+                  class="node">Node</span><br>
+                <span class="net">.NET</span><br><span class="react-native">React-Native</span><br><span
+                  class="bootstrap">Bootstrap</span><br>
+                <span class="mySQL">mySQL</span><br><span class="mongoDB">MongoDB</span><br>
+              </p>
+            </div>
+            <!--especialidades_box-->
+            <div class="especialidades_box">
+              <i class="bi bi-pc-display-horizontal"></i>
+              <h3>Projetos</h3>
+              <p class="projetos">Minha experiência prática abrange o desenvolvimento de soluções completas, desde APIs
+                REST robustas
+                com Node.js até aplicações web dinâmicas com React e aplicativos mobile nativos com React Native.
+                Também possuo familiaridade com o desenvolvimento de aplicações desktop utilizando Windows Forms
+                (C#) e um sólido conhecimento em bancos de dados relacionais (SQL) e não relacionais (NoSQL),
+                garantindo a construção de sistemas eficientes e escaláveis.</p>
+            </div>
+            <!--especialidades_box-->
           </div>
-          <!--especialidades_box-->
-          <div class="especialidades_box">
-            <i class="bi bi-box-fill"></i>
-            <h3>Frameworks & Ferramentas</h3>
-            <p><span class="react">React</span><br><span class="angular">Angular</span><br><span
-                class="node">Node</span><br>
-              <span class="net">.NET</span><br><span class="react-native">React-Native</span><br><span
-                class="bootstrap">Bootstrap</span><br>
-              <span class="mySQL">mySQL</span><br><span class="mongoDB">MongoDB</span><br>
-            </p>
-          </div>
-          <!--especialidades_box-->
-          <div class="especialidades_box">
-            <i class="bi bi-pc-display-horizontal"></i>
-            <h3>Projetos</h3>
-            <p class="projetos">Minha experiência prática abrange o desenvolvimento de soluções completas, desde APIs
-              REST robustas
-              com Node.js até aplicações web dinâmicas com React e aplicativos mobile nativos com React Native.
-              Também possuo familiaridade com o desenvolvimento de aplicações desktop utilizando Windows Forms
-              (C#) e um sólido conhecimento em bancos de dados relacionais (SQL) e não relacionais (NoSQL),
-              garantindo a construção de sistemas eficientes e escaláveis.</p>
-          </div>
-          <!--especialidades_box-->
+          <!--flex-->
         </div>
-        <!--flex-->
+        <!--interface-->
       </div>
-      <!--interface-->
-    </div>
+      <!--especialidades-->
+    </section>
     <!--especialidades-->
-    <section class="sobre">
+    <section class="sobre" id="sobre">
       <!--img_sobre-->
       <div class="interface">
         <div class="flex">
@@ -175,7 +178,7 @@
       <!--interface-->
     </section>
     <!--sobre-->
-    <section class="portfolio">
+    <section class="portfolio" id="projetos">
       <div class="interface">
         <h2>Meu <span>Portfólio.</span></h2>
         <div class="flex">
@@ -194,7 +197,7 @@
     </section>
     <!--portfolio-->
     </div>
-    <section class="formulario">
+    <section class="formulario" id="formulario">
       <div class="interface">
         <h2>Fala <span>comigo.</span></h2>
         <div class="flex">
